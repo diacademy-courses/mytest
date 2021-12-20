@@ -1,0 +1,26 @@
+body {
+    max-height: 100vh;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 20px;
+    font-size: 30px;
+    grid-area: "header" "main";
+    
+}
+
+.grid div {
+    background-color: rgb(230, 205, 196);
+}
+.test1{
+    grid-row: 1 / 6;
+
+}
